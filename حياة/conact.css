@@ -1,0 +1,209 @@
+/* start of connect us */
+#Connect_Us{
+    width: 1440px;
+    height: 447px;
+    padding: 0px 98px 0px 98px;
+    gap: 70px;
+}
+.Connect{
+    width: 1,244px;
+    height: 55px;
+    gap: 25px;
+    font-family: Greta Arabic AR + LT;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 54.77px;
+    color: #DC000E;
+    text-align: center;
+}
+.Call_Send{
+    width: 1,244px;
+    height: 322px;
+    gap: 50px; 
+    margin: 70px 0px 0px 0px ;
+    display: flex;
+}
+.Call{
+    width: 597px;
+    height: 322px;
+    padding: 40px 20px 40px 20px;
+    gap: 35px;
+    border-radius: 60px;
+    background-color: #E5F4FB;
+    float: right;
+}
+.Send{
+    width: 597px;
+    height: 322px;
+    padding: 40px 20px 40px 20px;
+    gap: 35px;
+    border-radius: 60px;
+    background-color: #E5F4FB;
+    float: right;
+}
+.Call-icon{
+    width: 557px;
+    height: 85px;
+    justify-content: space-between;
+    display: flex;
+    margin: 0px 0px 40px 0px ;
+}
+.icon1{
+    width: 85px;
+    height: 85px;
+    background-color: #FFFEFEBF;
+    padding: 26px 26px 26px 26px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 0px 0px 20px;
+}
+.icon1 img{
+    width: 33px;
+    height: 33px;
+    top: 26px;
+    left: 46px;
+    gap: 0px;
+    border: 2px;
+}
+.H_Call, .H_Send{
+    height: 41px;
+    font-weight: 800;
+    justify-content: space-between;
+    line-height: 41.08px;
+    font-size: 36px;
+    font-family: Greta Arabic AR + LT;
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+}
+.icon1{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+.Number{
+    width: 557px;
+    height: 122px;
+    border-radius: 30px;
+    padding: 30px 20px 30px 20px;
+    gap: 10px;
+    background-color: #FFFEFEBF;
+}
+.Num{
+    width: 517px;
+    height: 62px;
+    font-family: Averia Serif Libre;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31.45px;
+    color: #757575;
+    size: 26px;
+}
+.Number p{
+    float: left;
+}
+
+/* start of connect us */
+#Connect_Us{
+    width: 1440px;
+    height: 447px;
+    padding: 0px 98px 0px 98px;
+    gap: 70px;
+}
+.Connect{
+    width: 1,244px;
+    height: 55px;
+    gap: 25px;
+    font-family: Greta Arabic AR + LT;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 54.77px;
+    color: #DC000E;
+    text-align: center;
+}
+.Call_Send{
+    width: 1,244px;
+    height: 322px;
+    gap: 50px; 
+    margin: 70px 0px 0px 0px ;
+    display: flex;
+}
+.Call{
+    width: 597px;
+    height: 322px;
+    padding: 40px 20px 40px 20px;
+    gap: 35px;
+    border-radius: 60px;
+    background-color: #E5F4FB;
+    float: right;
+}
+.Send{
+    width: 597px;
+    height: 322px;
+    padding: 40px 20px 40px 20px;
+    gap: 35px;
+    border-radius: 60px;
+    background-color: #E5F4FB;
+    float: right;
+}
+.Call-icon{
+    width: 557px;
+    height: 85px;
+    justify-content: space-between;
+    display: flex;
+    margin: 0px 0px 40px 0px ;
+}
+.icon1{
+    width: 85px;
+    height: 85px;
+    background-color: #FFFEFEBF;
+    padding: 26px 26px 26px 26px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 0px 0px 20px;
+}
+.icon1 img{
+    width: 33px;
+    height: 33px;
+    top: 26px;
+    left: 46px;
+    gap: 0px;
+    border: 2px;
+}
+.H_Call, .H_Send{
+    height: 41px;
+    font-weight: 800;
+    justify-content: space-between;
+    line-height: 41.08px;
+    font-size: 36px;
+    font-family: Greta Arabic AR + LT;
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+}
+.icon1{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+.Number{
+    width: 557px;
+    height: 122px;
+    border-radius: 30px;
+    padding: 30px 20px 30px 20px;
+    gap: 10px;
+    background-color: #FFFEFEBF;
+}
+.Num{
+    width: 517px;
+    height: 62px;
+    font-family: Averia Serif Libre;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31.45px;
+    color: #757575;
+    size: 26px;
+}
+.Number p{
+    float: left;
+}

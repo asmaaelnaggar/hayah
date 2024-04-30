@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" dir="rtl" lang="ar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <!-- start landing page -->
+<div dir="rtl" class="landing-page" ondblclick="Apply67()" >
+    <!-- start header -->
+<div dir="rtl" class="header" >
+    <span class="material-symbols-rounded main">
+        humidity_high
+        </span>
+    <div class="section1" dir="rtl">
+    <p class="hayah" dir="rtl">حياة</p>
+    </div>
+    <div dir="rtl" class="section2">
+        <a href="hayah.html"><p class="what-is-hayah" dir="rtl" >ما هي حياة؟</p></a>
+        <p class="our-services" dir="rtl" id="one" onclick="myfun()">خدماتنا</a>
+        <a href="#Connect_Us"><p class="conact-us" dir="rtl">تواصل معنا</p></a>
+    </div>
+    <div class="section3" dir="rtl" >
+        <div class="blood">
+            <a href="blood_request.html"><p class="request-blood" dir="rtl">طلب دم</p></a>
+        </div>
+        <div class="donation">
+            <a href="donation.html"><p class="donate" dir="rtl">تبرع</p></a>
+        </div>
+    </div>
+</div>
+<!-- end header -->
+<!-- start landing-down -->
+<div class="Blood_Request_2">
+    <div class="Need_BLood">
+        <h1 class="H_Need_Blood">الحصول علي الدم</h1>
+        <p class="P_Need_Blood">نسهل عليك الحصول على الدم من خلال عدة طرق حيث يمكنك تقديم طلب وأخذ الدم من بنك الدم أو البحث عن متبرع يناسب فصيلة دم الحالة في نطاقك ونشر الطلب ليتمكن المتبرعيين من رؤيته والتواصل معك للتبرع</p>
+    </div>
+    <div class="Blood_Request_img">
+        <img src="./Blood_Reqest.svg">
+    </div>
+</div>
+
+
+</div>
+<div class="Submit_Request" id="Form_Pation_Information2">
+    <div class="Submit_Request_H_P">
+        <h1 class="H_Submit_Request">تقديم طلب</h1>
+        <p class="P_Submit_Request">يمكنك الإبلاغ عن حالة تحتاج للتبرع من خلال ملئ بيانات الحالة الشخصية وترك وسيلة للتواصل والإبلاغ عن مكان المريض ليتمكن المتبرع من الوصول إليه والتبرع</p>
+    </div>
+    <div id="Form_Pation_Information">
+        <div class="Pation_Information">
+            <div class="First_Pation_Information">
+                <h1 class="H_Form_Pation_Information"><span class="H_Form_Pation_Information1">أولًا،</span>معلومات المريض الشخصية</h1>
+                <div class="Arrows">
+                    <button class="Arrow1" onclick="Form_Pation_Information()"><span class="material-symbols-rounded forward blood-request">
+                        arrow_forward_ios
+                        </span></button>
+                    <button class="Arrow2" onclick="Second_Info_Contact_Location()"><span class="material-symbols-rounded backward blood-request2">
+                        arrow_back_ios
+                    </span></button>
+                </div>
+            </div>
+            <div class="First_Row_Name">
+                <div class="First_Name">
+                    <input type="text" class="Input_First_Name" required>
+                    <label for="First_Name">الاسم الأول</label>
+                </div>
+                <div class="Second_Name">
+                    <input type="text" class="Input_Second_Name" required>
+                    <label for="Second_Name">اسم الأب</label>
+                </div>
+                <div class="Last_Name">
+                    <input type="text" class="Input_Last_Name" required>
+                    <label for="Last_Name">الاسم الأخير</label>
+                </div>
+            </div>
+            <div class="Second_Row">
+                <div class="Second_Row_Gender">
+                    <select name="Gender">
+                        <option>الجنس</option>
+                        <option value="male">ذكر</option>
+                        <option value="female">أنثى</option>
+                    </select>
+                </div>
+                <div class="Second_Row_Blood_Type">
+                    <select name="فصيلة الدم">
+                        <option>فصيلة الدم</option>
+                        <option value="-A">-A</option>
+                        <option value="+A">+A</option>
+                        <option value="+B">+B</option>
+                        <option value="-B">-B</option>
+                        <option value="+AB">+AB</option>
+                        <option value="-AB">-AB</option>
+                        <option value="+O">+O</option>
+                        <option value="-O">-O</option>
+                    </select>
+                </div>
+                <div class="Data_Of_Birth">
+                    <input type="date" required>
+                    <label>تاريخ الميلاد</label>
+                </div>
+            </div>
+            <div class="Id">
+                <input type="text" required>
+                <label>الرقم القومي</label>
+            </div>
+            <div class="Overview_Patient">
+                <input type="text" required>
+                <label>نبذة عن حالة المريض</label>
+            </div>
+        </div>
+        <input type="button" id="Input1_Blood_Request" value="التالى" onclick="Second_Info_Contact_Location()">
+    </div>
+</div>
+
+
+
+<!-- end landing-down -->
+
+
+<span class="material-symbols-rounded header blood-request" id="headeru">
+    expand_more
+</span>
+
+<div class="Submit_Request2" id="Second_Info_Contact_Location2">
+    <div class="Submit_Request_H_P">
+        <h1 class="H_Submit_Request">تقديم طلب</h1>
+        <p class="P_Submit_Request">يمكنك الإبلاغ عن حالة تحتاج للتبرع من خلال ملئ بيانات الحالة الشخصية وترك وسيلة للتواصل والإبلاغ عن مكان المريض ليتمكن المتبرع من الوصول إليه والتبرع</p>
+    </div>
+<div id="Second_Info_Contact_Location">
+                <div class="Form_Info_Contact_Location">
+                    <div class="Info_Contact_Location">
+                        <h1 class="H_Form_Info_Contact_Location"><span class="H_Form_Info_Contact_Location1">ثانيًا،</span> معلومات التواصل والمكان</h1>
+                        <div class="Arrows_Second">
+                            <button class="Arrow1_1" onclick="Form_Pation_Information()"><span class="material-symbols-rounded forward blood-request2">
+                                arrow_forward_ios
+                                </span></button>
+                            <button class="Arrow1_2" onclick="Third_Info_Blood_Request()"><span class="material-symbols-rounded backward blood-request2">
+                                arrow_back_ios
+                            </span></button>
+                        </div>
+                    </div>
+                    <div class="Info_phone_Location">
+                        <input type="text" class="Second-Phone"  required>
+                        <label>رقم هاتف للتواصل</label>
+                        <div class="Governorate">
+                            <select name="المحافظة" required>
+                                <option>المحافظة</option>
+                                <option value="1">القاهرة</option>
+                                <option value="2">الإسكندرية</option>
+                                <option value="3">البحيرة</option>
+                                <option value="4">الجيزة</option>
+                                <option value="5">القليوبية</option>
+                                <option value="6">مطروح</option>
+                                <option value="7">كفر الشيخ</option>
+                                <option value="8">الدقهلية</option>
+                                <option value="9">الغربية</option>
+                                <option value="10">المنوفية</option>
+                                <option value="11">دمياط</option>
+                                <option value="12">بورسعيد</option>
+                                <option value="13">الإسماعيلية</option>
+                                <option value="14">السويس</option>
+                                <option value="15">الشرقية</option>
+                                <option value="16">شمال سيناء</option>
+                                <option value="17">جنوب سيناء</option>
+                                <option value="18">بني سويف</option>
+                                <option value="19">المنيا</option>
+                                <option value="20">الفيوم</option>
+                                <option value="21">أسيوط</option>
+                                <option value="22">الوادي الجديد</option>
+                                <option value="23">سوهاج</option>
+                                <option value="24">قنا</option>
+                                <option value="25">الأقصر</option>
+                                <option value="26">أسوان</option>
+                                <option value="27">البحر الأحمر</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="City_Hosptial">
+                        <div class="City">
+                            <select name="المدينة">
+                                <option>المدينة/المنطنقة</option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                            </select>
+                        </div>
+                        <div class="Hosptial">
+                            <input type="text" required>
+                            <label>المستشفى</label>
+                        </div>
+                    </div>
+                    <div class="Hosptial_Address">
+                        <input type="text" required>
+                        <label>عنوان المستشفي كما هو في الكشف</label>
+                    </div>
+                    <div class="Input_Second_Info_Contact_Location"><input type="button" id="input1_Second_Info_Connect_Locatian" value="التالى" onclick="Third_Info_Blood_Request()">
+                    </div>
+                </div>
+</div>
+</div>
+
+
+
+<div class="Submit_Request3" id="Third_Info_Blood_Request2">
+    <div class="Submit_Request_H_P">
+        <h1 class="H_Submit_Request">تقديم طلب</h1>
+        <p class="P_Submit_Request">يمكنك الإبلاغ عن حالة تحتاج للتبرع من خلال ملئ بيانات الحالة الشخصية وترك وسيلة للتواصل والإبلاغ عن مكان المريض ليتمكن المتبرع من الوصول إليه والتبرع</p>
+    </div>
+<div id="Third_Info_Blood_Request">
+    <div class="H_Icon_Third_Info_Blood_Request">
+        <h1 class="H1_Third_Info_Blood_Request"><span class="Span_H1_Third_Info_Blood_Request">ثالثًا،</span>مدة الإنتظار ورفع الإقرار</h1>
+        <div class="Icons_Third_Info_Blood_Request">
+            <button class="Icon1_Third_Info_Blood_Request" onclick="Third_Info_Blood_Request1()">
+                <span class="material-symbols-rounded forward blood-request2">
+                    arrow_forward_ios
+                    </span>
+            </botton>
+            <button class="Icon2_Third_Info_Blood_Request">
+                <span class="material-symbols-rounded backward blood-request3">
+                    arrow_back_ios
+                </span>
+            </button>
+        </div>
+    </div>
+    <div class="Date_Time">
+        <div class="Date_Third_Info_Blood_Request">
+            <input type="date" required>
+            <label>اليوم</label>
+        </div>
+        <div class="Time_Third_Info_Blood_Request">
+            <input type="time" required>
+            <label>الساعة</label>
+        </div>
+    </div>
+    <div class="PP_Photo_Third_Info_Blood_Request">
+        <p class="P_Third_Info_Blood_Request">يرجى رفع إقرار طلب الدم المأخوذ من المستشفي هنا</p>
+        <div class="Photo_Third_Info_Blood_Request">
+            <div class="Icon_Third_Info_Blood_Request">
+                <img src="Domnload.png.jpg">
+            </div>
+            <div class="Input_File">
+                <input type="file" class="File">
+            </div>
+            <p class="P_Photo_Third_Info_Blood_Request">PNG, JPG, DOC or PDF (max 3MB)</p>
+        </div>
+    </div>
+    <div class="Input_Third_Info_Blood_Request">
+        <a href="Apply2.html"><input type="button" value="إرسال" onclick="Apply2_1()"></a>
+    </div>
+</div>
+</div>
+
+
+<div class="main-footer">
+    <div class="footer" dir="rtl">
+        <div class="section1">
+            <h2>حياة</h2>
+            <p>مهمتنا هي مساعدة الحالات التي بحاجة إلى الدم عن طريق عرضها على مستخدمين الموقع الذين لديهم قابلية التبرع بالدم</p>
+            <div class="icons">
+                <a href="#" class="fa fa-instagram fa-3x"></a>
+                <a href="#" class="fa fa-twitter fa-3x"></a>
+                <a href="#" class="fa fa-youtube-play fa-3x" ></a>
+            </div>
+        </div>
+        <div class="section2">
+            <h2>عنا</h2>
+            <h3>عنا</h3>
+            <h3>آخر الأخبار</h3>
+            <h3>خدماتنا</h3>
+        </div>
+        <div class="section3">
+            <h2>خدمة العملاء</h2>
+            <h3>الحساب</h3>
+            <h3>مركز الخدمة</h3>
+            <h3>رأيك</h3>
+            <h3>تواصل معنا</h3>
+            <h3>إمكانية الوصول</h3>
+        </div>
+        <div class="section4">
+            <h2>تواصل معنا</h2>
+            <p>أليك أي مشكلة أو رأي؟ نود أن نسمع منك</p>
+            <input type="text"  name="" id="" placeholder="بريدك الالكتروني">
+        </div>
+    </div>
+    <div id="Connect_Us">
+        <h1 class="Connect">تواصل معنا!</h1>
+        <div class="Call_Send">
+            <div class="Call">
+                <div class="Call-icon">
+                    <div class="icon1">
+                        <img src="./image/Vector (2).png"> 
+                    </div>
+                    <h1 class="H_Call">اتصل بنا</h1>
+                    <!-- <div class="icon1">
+                        <img src="./image/phone.jpg"> 
+                    </div> -->
+                </div>
+                <div class="Number">
+                    <div class="Num">
+                        <p>123 - 4567 - 900 (22+)</p>
+                        <br>
+                        <p>123 - 4567 - 901 (22+)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="Send">
+                <div class="Call-icon Icons">
+                
+                    <div class="icon1">
+                        <img src="./image/Vector (3).png"> 
+                    </div>
+                    <h1 class="H_Send">راسلنا على بريدنا الالكتروني</h1>
+                </div>
+                <div class="Number">
+                    <div class="Num">
+                        <p>bloodbanksupport@gmail.com</p>
+                        <p>bloodbankstaff@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="end">
+        <p>2024 © All rights reserved</p>
+    </div>
+    </div>
+
+    <div class="services-ourservices blood-request" id="two" dir="rtl">
+        <div class="section1">
+            <a href="donation.html"><p>تبرع بالدم</p></a>
+            <a href="invite.html"><p>رشح شخص للتبرع</p></a>
+            <a href="informationbeforedonation.html"><p>معلومات مهمة عن التبرع</p></a>
+            <a href="rqquestcertificate.html"><p>طلب شهادة شكر</p></a>
+            <a href="profile.html"><p>حسابك</p></a>
+        </div>
+        <div class="section2">
+            <a href="blood_request.html"><p>اطلب دم</p></a>
+            <a href="searchbloodbank.html"><p>ابحث في بنك الدم</p></a>
+            <a href="searchadonor.html"><p>ابحث عن متبرع</p></a>
+            <a href="searchacondation.html"><p>ابحث عن حالة</p></a>
+        </div>
+    </div> 
+<script src="main.js"></script>
+</body>
+</html>
+
