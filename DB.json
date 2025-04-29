@@ -1,0 +1,247 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "role": "user",
+      "email": "john.doe@example.com",
+      "password": "password123",
+      "todos": [
+        {
+          "id": 101,
+          "title": "Complete project proposal",
+          "description": "Finish the draft for the client project proposal",
+          "attachments": [
+            "https://example.com/docs/proposal-template.docx",
+            "https://example.com/images/project-reference.jpg",
+            "https://example.com/events/health-fair-details.pdf",
+            "https://example.com/vendors/current-contracts.pdf",
+            "https://example.com/curriculum/grade5-may.docx",
+            "https://example.com/curriculum/proposed-changes-2023.pdf"
+          ],
+          "start": "Feb 22 , 2025",
+          "end": " Feb 27 , 2025",
+          "completed": false,
+          "priority": "High "
+        },
+        {
+          "id": 102,
+          "title": "Team meeting",
+          "description": "Weekly team sync meeting",
+          "attachments": [
+            "https://example.com/meetings/agenda-may1.pdf",
+            "https://example.com/events/health-fair-details.pdf",
+            "https://example.com/vendors/current-contracts.pdf",
+            "https://example.com/curriculum/grade5-may.docx",
+            "https://example.com/curriculum/proposed-changes-2023.pdf"
+          ],
+             "start": "Feb 25 , 2025",
+          "end": " Feb 28 , 2025",
+          "completed": true,
+          "priority": "Medium"
+        },
+        {
+          "id": 103,
+          "title": "Grocery shopping",
+          "description": "Buy groceries for the week",
+          "attachments": ["https://example.com/meetings/agenda-may1.pdf",
+            "https://example.com/events/health-fair-details.pdf",
+            "https://example.com/vendors/current-contracts.pdf",
+            "https://example.com/curriculum/grade5-may.docx",
+            "https://example.com/curriculum/proposed-changes-2023.pdf"
+],
+             "start": "Feb 5, 2025",
+          "end": " Feb 8 , 2025",
+          "completed": false,
+          "priority": "Medium"
+        },
+        {
+          "id": 104,
+          "title": "Gym session",
+          "description": "Morning workout",
+          "attachments": [
+            "https://example.com/events/health-fair-details.pdf",
+            "https://example.com/vendors/current-contracts.pdf",
+            "https://example.com/curriculum/grade5-may.docx",
+            "https://example.com/curriculum/proposed-changes-2023.pdf"
+          ],
+         "start": "Feb 5, 2025",
+          "end": " Feb 8 , 2025",
+          "completed": false,
+          "priority": "High"
+        },
+        {
+          "id": 105,
+          "title": "Read book",
+          "description": "Read chapter 5 of 'Clean Code'",
+          "attachments": ["https://example.com/events/health-fair-details.pdf",
+            "https://example.com/vendors/current-contracts.pdf",
+            "https://example.com/curriculum/grade5-may.docx",
+            "https://example.com/curriculum/proposed-changes-2023.pdf"
+],
+          "start": "2023-05-04T20:00:00",
+          "end": "2023-05-04T21:00:00",
+          "completed": false,
+          "priority": "Low"
+        },
+        {
+          "id": 106,
+          "title": "Dentist appointment",
+          "description": "Annual dental checkup",
+          "attachments": [
+            "https://example.com/medical/dental-insurance-card.jpg",
+            "https://example.com/events/health-fair-details.pdf",
+            "https://example.com/vendors/current-contracts.pdf",
+            "https://example.com/curriculum/grade5-may.docx",
+            "https://example.com/curriculum/proposed-changes-2023.pdf"
+          ],
+         "start": "Feb 6 , 2025",
+          "end": " Feb 7 , 2025",
+          "completed": false,
+          "priority": "High"
+        },
+        {
+          "id": 107,
+          "title": "Pay bills",
+          "description": "Pay electricity and internet bills",
+          "attachments": [
+            "https://example.com/bills/may-electricity.pdf",
+            "https://example.com/bills/may-internet.pdf",
+            "https://example.com/events/health-fair-details.pdf",
+            "https://example.com/vendors/current-contracts.pdf",
+            "https://example.com/curriculum/grade5-may.docx",
+            "https://example.com/curriculum/proposed-changes-2023.pdf"
+          ],
+          "start": "Feb 5 , 2025",
+          "end": " Feb 18 , 2025",
+          "completed": true,
+          "priority": "Low"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "role": "admin",
+      "email": "jane.smith@example.com",
+      "password": "securepassword",
+      "todos": [
+        {
+          "id": 201,
+          "title": "Review team reports",
+          "description": "Go through Q2 reports from all teams",
+          "attachments": [
+            "https://example.com/reports/team-a-q2",
+            "https://example.com/vendors/current-contracts.pdf",
+            "https://example.com/curriculum/grade5-may.docx",
+            "https://example.com/curriculum/proposed-changes-2023.pdf",
+            "https://example.com/reports/team-b-q2.pdf"
+          ],
+          "start": "2023-05-01T10:00:00",
+          "end": "2023-05-01T12:00:00",
+          "completed": false,
+          "priority": "Medium"
+        },
+        {
+          "id": 202,
+          "title": "Lunch with client",
+          "description": "Meet with ABC Corp representatives",
+          "attachments": [
+            "https://example.com/clients/abc-corp-profile.pdf",
+            "https://example.com/events/health-fair-details.pdf",
+            "https://example.com/vendors/current-contracts.pdf",
+            "https://example.com/curriculum/grade5-may.docx",
+            "https://example.com/curriculum/proposed-changes-2023.pdf"
+          ],
+          "start": "Feb 2 , 2025",
+          "end": " Feb 8 , 2025",
+
+          "completed": false,
+          "priority": "Medium"
+        },
+        {
+          "id": 203,
+          "title": "Update project timeline",
+          "description": "Adjust project milestones based on recent changes",
+          "attachments": [
+            "https://example.com/events/health-fair-details.pdf",
+            "https://example.com/vendors/current-contracts.pdf",
+            "https://example.com/curriculum/grade5-may.docx",
+            "https://example.com/curriculum/proposed-changes-2023.pdf"
+          ],
+          "start": "Feb 2 , 2025",
+          "end": " Feb 8 , 2025",
+          "completed": true,
+          "priority": "Medium"
+        },
+        {
+          "id": 204,
+          "title": "Performance reviews",
+          "description": "Prepare for employee performance evaluations",
+          "attachments": [
+            "https://example.com/hr/performance-template.docx",
+            "https://example.com/hr/performance-template.docx",
+            "https://example.com/hr/performance-template.docx",
+            "https://example.com/hr/performance-template.docx",
+            "https://example.com/hr/performance-template.docx"
+          ],
+            "start": "Feb  , 2025",
+          "end": " Feb 7, 2025",
+          "completed": false,
+          "priority": "Medium"
+        },
+        {
+          "id": 205,
+          "title": "Conference call",
+          "description": "Quarterly strategy call with remote teams",
+          "attachments": [
+            "https://example.com/hr/performance-template.docx",
+            "https://example.com/hr/performance-template.docx",
+            "https://example.com/hr/performance-template.docx",
+            "https://example.com/hr/performance-template.docx",
+            "https://example.com/hr/performance-template.docx"
+          ],
+             "start": "Feb 25 , 2025",
+          "end": " Feb 28 , 2025",
+          "completed": false,
+          "priority": "Low"
+        },
+        {
+          "id": 206,
+          "title": "Submit expenses",
+          "description": "File travel expenses from last month",
+          "attachments": [
+            "https://example.com/hr/performance-template.docx",
+            "https://example.com/hr/performance-template.docx",
+            "https://example.com/hr/performance-template.docx",
+            "https://example.com/hr/performance-template.docx",
+            "https://example.com/hr/performance-template.docx"
+          ],
+                       "start": "Feb 25 , 2025",
+          "end": " Feb 28 , 2025",
+          "completed": true,
+          "priority": "Low"
+        },
+        {
+          "id": 207,
+          "title": "Team building event",
+          "description": "Plan details for next month's team activity",
+          "attachments": [
+            "https://example.com/hr/performance-template.docx",
+            "https://example.com/hr/performance-template.docx",
+            "https://example.com/hr/performance-template.docx",
+            "https://example.com/hr/performance-template.docx",
+            "https://example.com/hr/performance-template.docx"
+          ],
+                       "start": "Feb 25 , 2025",
+          "end": " Feb 28 , 2025",
+          "completed": false,
+          "priority": "Low"
+        }
+      ]
+    }
+  ]
+}
+
